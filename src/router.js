@@ -12,7 +12,7 @@ import { Router, Route, hashHistory, Link , IndexRoute} from 'react-router';
           <Router history={hashHistory}>
             <Route path="/" component={App} >
             <IndexRoute component={Home} />
-            <Route path="user/:id" component={User}/>
+            <Route path="user/:_id" component={User}/>
             </Route>
          </Router>
        </div>
